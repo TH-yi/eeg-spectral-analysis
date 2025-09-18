@@ -1,4 +1,4 @@
-# eegspec
+# eeg-spectral-analysis
 
 **Version**: v0.1.0  
 **Summary**: EEG spectral analysis toolkit for task‑centric JSON inputs. Computes Welch PSD and common spectral metrics (band powers, entropy, spectral moments, SEF95, median frequency, IAF, FAA). Supports subject‑major, task‑level multiprocessing and DualHandler logging.
