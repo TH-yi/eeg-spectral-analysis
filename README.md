@@ -23,12 +23,12 @@ A folder of subjects is simply a folder with many such JSON files (non‑recursi
 
 ## 2) Channel names
 
-You should provide channel names with **`--channels-file`**. Supported formats:
+You **should** provide channel names with **`--channels-file`**. Supported formats:
 
 - `.locs` (EEGLAB‑style or one name per line)  
 - `.txt/.csv` (one channel name per line)
 
-Without this parameter, the program will use build-in caps63.locs as channels
+***Without this parameter, the program will use build-in caps63.locs as channels***
 
 **Requirements**:
 1. The number of channel names must equal the number of columns in your JSON data (i.e., `n_channels`).  
