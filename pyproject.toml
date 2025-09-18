@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eegspec"
+version = "0.1.0"
+description = "EEG spectral toolkit: folder/file JSON (task-centric per subject), Welch PSD & metrics (bandpower/entropy/moments/SEF/F50/IAF/FAA), multiprocessing scheduler, DualHandler logging."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT License"}
+authors = [{name="Your Name", email="you@example.com"}]
+dependencies = [
+    "numpy>=1.22",
+    "scipy>=1.8",
+    "mne>=1.6.0",
+    "matplotlib>=3.7",
+]
+
+[project.scripts]
+eegspec = "eegspec.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["eegspec"]

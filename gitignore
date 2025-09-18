@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+.build/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.log.*
+*.gz
+*.zip
+.log/
+.logs/
+
+# Data & outputs
+out/
+outputs/
+*.npy
+*.npz
+*.csv
+*.jsonl
+*.json
+tmp/
+temp/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# MNE cache
+mne_data/
+MNE-*/
+
+# Wheelhouse / vendored wheels
+wheelhouse/

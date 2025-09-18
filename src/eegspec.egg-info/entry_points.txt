@@ -1,0 +1,2 @@
+[console_scripts]
+eegspec = eegspec.cli:main

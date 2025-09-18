@@ -1,0 +1,4 @@
+numpy>=1.22
+scipy>=1.8
+mne>=1.6.0
+matplotlib>=3.7
